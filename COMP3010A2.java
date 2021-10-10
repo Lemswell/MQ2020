@@ -35,17 +35,14 @@ public class COMP3010A2 {
         }
         
         // unoptimal case: breaks occuring at beggining & end of string
-
         */
-        
-        // string where 'a' represents arbitrary char and 'b' represents a occurance of a break such that 'b' is the first char of the following string
-        //          note that first char cannot be a 'b'
-        // 'abaaaaaaaaaabbb' 
-        // new method must account for the spaces between 'b's and 
         
         
         // Second method: Prioritsing the 'removal' of largest gap between breaks 
-        
+        //          string where 'a' represents arbitrary char and 'b' represents a occurance of a break such that 'b' is the first char of the following string
+        //              # note that first char cannot be a 'b'
+        //          consider example: 'abaaaaaaaaaabbb' 
+        //          new method must account for the spaces between 'b's as well as idx 0 and end. and
         
         
         
