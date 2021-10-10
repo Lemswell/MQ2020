@@ -7,7 +7,8 @@ public class COMP3010A2 {
     public ArrayList<Integer> BasicBreakIdxOrdering(String s, ArrayList<Integer> b) {
         ArrayList<Integer> sb = new ArrayList<Integer>(); // breakpoints sorted in optimal order
         
-        // Basic method: the distance (in terms of index) between highest 'break' and 's' length is compared to the distance between lowest 'break' and 0
+        /* First method: checking high and low for biggest breaks
+        //               the distance (in terms of index) between highest 'break' and 's' length is compared to the distance between lowest 'break' and 0
         //               the 'break' with the highest distance is added, and 
         //               the process is repeated with new given substring.
         
@@ -32,6 +33,22 @@ public class COMP3010A2 {
                 bCopy.remove(b.size()-1);
             }
         }
+        
+        // unoptimal case: breaks occuring at beggining & end of string
+
+        */
+        
+        // string where 'a' represents arbitrary char and 'b' represents a occurance of a break such that 'b' is the first char of the following string
+        //          note that first char cannot be a 'b'
+        // 'abaaaaaaaaaabbb' 
+        // new method must account for the spaces between 'b's and 
+        
+        
+        // Second method: Prioritsing the 'removal' of largest gap between breaks 
+        
+        
+        
+        
         return sb;
     }
 }
